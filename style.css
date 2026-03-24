@@ -205,7 +205,7 @@ p {
 
 .stack {
   position: absolute;
-  inset: 0;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
