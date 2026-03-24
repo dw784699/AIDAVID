@@ -96,6 +96,19 @@ margin-top: 16px;
 hero-text {
 max-width: 460px;
 }
+.hero-actions {
+display: flex;
+gap: 16px;
+margin-top: 24px;
+}
+.hero-actions a {
+padding: 12px 20px;
+border-radius: 10px;
+transition: all 0.25s ease;
+}
+.hero-actions a:hover {
+transform: translateY(-2px);
+}
 .badge {
   display: inline-block;
   padding: 8px 12px;
