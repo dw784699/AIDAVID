@@ -186,12 +186,11 @@ p {
 
 .hero-card {
   position: relative;
-  min-height: 460px;
+  min-height: 480px;
   border: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03));
   border-radius: 24px;
   box-shadow: var(--shadow);
-  transform: scale(0.94);
   overflow: hidden;
 }
 
@@ -212,7 +211,7 @@ p {
   align-items: stretch;
   justify-content: flex-start;
   gap: 16px;
-  padding: 28px 24px;
+  padding: 22px 20px;
 }
 
 .mini-card {
